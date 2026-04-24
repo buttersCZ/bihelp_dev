@@ -1,4 +1,5 @@
 
+import logging
 import yaml
 
 
@@ -12,5 +13,5 @@ def get_env(config, env_name):
     
     if env_name not in envs:
         raise ValueError(f"Environment '{env_name}' not found")
-
+    logging.info(f"Using environment: {env_name}")
     return envs[env_name]
