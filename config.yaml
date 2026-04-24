@@ -1,0 +1,12 @@
+project_root: .
+
+environments:
+  dev:
+    project: bqtesting-494319
+    replacements:
+      - from: prod_project.core
+        to: bqtesting-494319.core_dev
+
+  prod:
+    project: prod_project
+    replacements: []
