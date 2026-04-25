@@ -9,9 +9,10 @@ def load_config(path="config.yaml"):
 
 
 def get_env(config, env_name):
+
     envs = config.get("environments", {})
-    
+
     if env_name not in envs:
         raise ValueError(f"Environment '{env_name}' not found")
-    logging.info(f"Using environment: {env_name}")
+    logging.info(f"Prostredi nalezeno{envs[env_name]}")
     return envs[env_name]

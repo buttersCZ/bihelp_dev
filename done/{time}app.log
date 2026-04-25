@@ -1,0 +1,36 @@
+2026-04-25 17:05:38,251 [INFO] root: Environment: {'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 17:05:38,251 [INFO] root: Project: bqtesting-494319
+2026-04-25 17:05:38,251 [INFO] root: Replacements: [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]
+2026-04-25 17:06:15,550 [INFO] root: Environment: {'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 17:06:15,551 [INFO] root: Project: bqtesting-494319
+2026-04-25 17:06:15,551 [INFO] root: Replacements: [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]
+2026-04-25 17:19:02,678 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:19:38,746 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:19:59,563 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:20:26,680 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:20:36,885 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:20:36,885 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:24:53,269 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:24:53,269 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:25:25,086 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:25:25,086 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:25:25,086 [INFO] root: Jsme v dir 02-insert
+2026-04-25 17:25:25,086 [INFO] root: Jsme v dir 01-create
+2026-04-25 17:25:52,649 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:25:52,649 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:25:58,652 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:25:58,652 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:25:58,653 [INFO] root: Jsme v dir 01-create
+2026-04-25 17:25:58,653 [INFO] root: Jsme v dir 02-insert
+2026-04-25 17:27:51,252 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:27:51,252 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:27:51,252 [INFO] root: Jsme v dir 01-create
+2026-04-25 17:27:51,252 [INFO] root: Jsme v dir 02-insert
+2026-04-25 17:29:57,130 [INFO] root: Prostredi nalezeno{'project': 'prod_project', 'replacements': []}
+2026-04-25 17:29:57,130 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:29:57,131 [INFO] root: Jsme v dir 01-create
+2026-04-25 17:29:57,131 [INFO] root: Jsme v dir 02-insert
+2026-04-25 17:30:08,372 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 17:30:08,373 [INFO] root: Jsme ve spravne slozce
+2026-04-25 17:30:08,373 [INFO] root: Jsme v dir 01-create
+2026-04-25 17:30:08,373 [INFO] root: Jsme v dir 02-insert

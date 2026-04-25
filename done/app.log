@@ -1,0 +1,9 @@
+2026-04-25 17:02:33,684 [INFO] root: Environment: {'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 17:02:33,684 [INFO] root: Project: bqtesting-494319
+2026-04-25 17:02:33,684 [INFO] root: Replacements: [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]
+2026-04-25 17:04:59,259 [INFO] root: Environment: {'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 17:04:59,259 [INFO] root: Project: bqtesting-494319
+2026-04-25 17:04:59,259 [INFO] root: Replacements: [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]
+2026-04-25 17:05:07,644 [INFO] root: Environment: {'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 17:05:07,644 [INFO] root: Project: bqtesting-494319
+2026-04-25 17:05:07,644 [INFO] root: Replacements: [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]
