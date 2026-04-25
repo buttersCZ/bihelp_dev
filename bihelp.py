@@ -1,8 +1,9 @@
 from config import load_config, get_env
 import argparse
 import logging
-from sql_processor import check_folder, get_sql_folders,process_sql_dir
 
+from sql_processor import check_folder, get_sql_folders,process_sql_dir
+from create_batch import generate_batch_file
 
 def main():
 
@@ -40,7 +41,10 @@ def main():
         sub_dir = get_sql_folders()
         for dir in sub_dir:
             logging.info(f"Jsme v dir {dir}")
-            batch += process_sql_dir(dir, replacements)
+            batch += process_sql_dir(dir, replacements) +"\n\n"
+
+    if batch:
+        generate_batch_file(batch)
 
 if __name__ == "__main__":
     main()

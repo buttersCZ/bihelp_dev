@@ -198,3 +198,27 @@ VALUES (1, 'Beer'), (2, 'Wine');
 INSERT INTO `bqtesting-494319.core_dev.products` (id, name)
 VALUES (1, 'Beer'), (2, 'Wine');
 
+2026-04-25 21:50:45,292 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:50:45,292 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:50:45,292 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:50:45,292 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:50:59,518 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:50:59,519 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:50:59,519 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:50:59,519 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:51:22,384 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:51:22,385 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:51:22,385 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:51:22,385 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:52:04,283 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:52:04,283 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:52:04,283 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:52:04,283 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:52:43,351 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:52:43,351 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:52:43,351 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:52:43,351 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:53:45,363 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:53:45,363 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:53:45,363 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:53:45,363 [INFO] root: Jsme v dir 02-insert

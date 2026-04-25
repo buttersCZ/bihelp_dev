@@ -26,5 +26,5 @@ def process_sql_dir(dir, replacements) -> str:
                 content = f.read()
                 for rep in replacements:
                     content = content.replace(rep["from"],rep["to"])
-                batch += content
+                batch += f"--{file_path}/\n"+content
     return batch
