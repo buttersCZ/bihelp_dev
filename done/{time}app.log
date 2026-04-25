@@ -222,3 +222,106 @@ VALUES (1, 'Beer'), (2, 'Wine');
 2026-04-25 21:53:45,363 [INFO] root: Jsme ve spravne slozce
 2026-04-25 21:53:45,363 [INFO] root: Jsme v dir 01-create
 2026-04-25 21:53:45,363 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:56:07,794 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:56:07,794 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:56:07,795 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:56:07,795 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:56:07,795 [INFO] root: posix
+2026-04-25 21:58:09,990 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:58:09,990 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:58:09,990 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:58:09,990 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:59:41,167 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:59:41,167 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:59:41,167 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:59:41,168 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:59:52,572 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 21:59:52,572 [INFO] root: Jsme ve spravne slozce
+2026-04-25 21:59:52,572 [INFO] root: Jsme v dir 01-create
+2026-04-25 21:59:52,572 [INFO] root: Jsme v dir 02-insert
+2026-04-25 21:59:52,572 [INFO] root: Linux
+2026-04-25 22:10:50,542 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 22:10:50,542 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:10:50,542 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:10:50,542 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:10:52,070 [INFO] root: Linux
+2026-04-25 22:12:00,824 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 22:12:00,824 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:12:00,824 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:12:00,824 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:12:00,824 [INFO] root: Linux
+2026-04-25 22:13:33,306 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 22:13:33,306 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:13:33,306 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:13:33,306 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:13:33,307 [INFO] root: Linux
+2026-04-25 22:14:28,163 [WARNING] root: ⚠️ BigQuery CLI vrátil chybu: FATAL Flags parsing error: Unknown command line flag 'version'
+Run 'bq.py help' to get help
+
+2026-04-25 22:17:28,881 [WARNING] root: ⚠️ BigQuery CLI vrátil chybu: FATAL Flags parsing error: Unknown command line flag 'version'
+Run 'bq.py help' to get help
+
+2026-04-25 22:17:42,601 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:17:42,605 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 22:17:42,605 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:17:42,606 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:17:42,606 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:17:42,606 [INFO] root: Linux
+2026-04-25 22:18:48,669 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:18:48,675 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 22:18:48,675 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:18:48,676 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:18:48,676 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:18:48,676 [INFO] root: Linux
+2026-04-25 22:28:34,843 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:28:34,847 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.core_dev'}]}
+2026-04-25 22:28:34,847 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:28:34,848 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:28:34,848 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:28:34,848 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:30:37,669 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:30:37,675 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project', 'to': 'bqtesting-494319'}]}
+2026-04-25 22:30:37,676 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:30:37,676 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:30:37,676 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:30:37,676 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:31:28,657 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:31:28,662 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.test_dataset'}]}
+2026-04-25 22:31:28,662 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:31:28,662 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:31:28,662 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:31:28,662 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:37:44,523 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:37:56,434 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:38:03,079 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:38:03,086 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.test_dataset'}]}
+2026-04-25 22:38:03,086 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:38:03,086 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:38:03,086 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:38:03,087 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:38:13,676 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:38:13,681 [WARNING] root: config.yaml již existuje
+2026-04-25 22:38:44,237 [WARNING] root: config.yaml již existuje
+2026-04-25 22:38:46,451 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:38:46,453 [INFO] root: Prostredi nalezeno{'project': 'bqtesting-494319', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.test_dataset'}]}
+2026-04-25 22:38:46,453 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:38:46,453 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:38:46,453 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:38:46,454 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:39:04,959 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:39:07,009 [INFO] root: config vytvořen
+2026-04-25 22:39:09,025 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:39:09,026 [INFO] root: Prostredi nalezeno{'project': 'tvuj-dev-projekt', 'replacements': [{'from': 'prod_project', 'to': 'dev_project'}]}
+2026-04-25 22:39:09,026 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:39:09,026 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:39:09,026 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:39:09,027 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:44:07,255 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:44:07,256 [ERROR] root: Soubor 'config.yaml' nenalezen!
+2026-04-25 22:44:14,059 [INFO] root: config vytvořen
+2026-04-25 22:44:16,381 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:44:16,383 [INFO] root: Prostredi nalezeno{'project': 'tvuj-dev-projekt', 'replacements': [{'from': 'prod_project', 'to': 'dev_project'}]}
+2026-04-25 22:44:16,383 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:44:16,383 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:44:16,384 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:44:16,384 [INFO] root: Soubor deployment.sh vytvořen

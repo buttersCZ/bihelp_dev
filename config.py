@@ -1,12 +1,19 @@
 
 import logging
 import yaml
-
+import subprocess
+import os
 
 def load_config(path="config.yaml"):
-    with open(path, "r") as f:
-        return yaml.safe_load(f)
-
+    try:
+        with open(path, "r") as f:
+            return yaml.safe_load(f)
+    except FileNotFoundError:
+        logging.error(f"Soubor '{path}' nenalezen!")
+        raise ValueError(f"config.yaml neexistuje. Spusť nejdřív:\n  python3 bihelp.py --settings")
+    except yaml.YAMLError as e:
+        logging.error(f"YAML je poškozený: {e}")
+        raise ValueError(f"Soubor config má špatný formát: {e}")
 
 def get_env(config, env_name):
 
@@ -16,3 +23,37 @@ def get_env(config, env_name):
         raise ValueError(f"Environment '{env_name}' not found")
     logging.info(f"Prostredi nalezeno{envs[env_name]}")
     return envs[env_name]
+
+def check_bq_cli():
+    """Kontrola, zda je bq CLI dostupný"""
+    try:
+        subprocess.run(["bq", "help"], capture_output=True, timeout=2)
+        logging.info("✓ BigQuery CLI nalezen")
+        return True
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        logging.warning("⚠️ BigQuery CLI se nepovedlo ověřit. Ujisti se, že je nainstalovaný.")
+        return False  # Ne raise - jen varování
+    
+def create_config_template():
+    "Vytvoří šablonu pro config.yaml"
+    template = """project_root: .
+
+environments:
+  dev:
+    project: tvuj-dev-projekt
+    replacements:
+      - from: prod_project
+        to: dev_project
+
+  prod:
+    project: prod-projekt
+    replacements: []
+"""    
+    if os.path.exists("config.yaml"):
+        logging.warning("config.yaml již existuje")
+        return
+
+    with open("config.yaml", "w") as f:
+        f.write(template)
+
+    logging.info("config vytvořen")

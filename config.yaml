@@ -2,11 +2,11 @@ project_root: .
 
 environments:
   dev:
-    project: bqtesting-494319
+    project: tvuj-dev-projekt
     replacements:
-      - from: prod_project.core
-        to: bqtesting-494319.core_dev
+      - from: prod_project
+        to: dev_project
 
   prod:
-    project: prod_project
+    project: prod-projekt
     replacements: []
