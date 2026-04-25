@@ -325,3 +325,12 @@ Run 'bq.py help' to get help
 2026-04-25 22:44:16,383 [INFO] root: Jsme v dir 01-create
 2026-04-25 22:44:16,384 [INFO] root: Jsme v dir 02-insert
 2026-04-25 22:44:16,384 [INFO] root: Soubor deployment.sh vytvořen
+2026-04-25 22:47:06,252 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:47:06,252 [ERROR] root: Soubor 'config.yaml' nenalezen!
+2026-04-25 22:47:09,662 [INFO] root: config vytvořen
+2026-04-25 22:47:12,433 [INFO] root: ✓ BigQuery CLI nalezen
+2026-04-25 22:47:12,435 [INFO] root: Prostredi nalezeno{'project': 'tvuj-dev-projekt', 'replacements': [{'from': 'prod_project.core', 'to': 'bqtesting-494319.test_dataset'}]}
+2026-04-25 22:47:12,435 [INFO] root: Jsme ve spravne slozce
+2026-04-25 22:47:12,435 [INFO] root: Jsme v dir 01-create
+2026-04-25 22:47:12,435 [INFO] root: Jsme v dir 02-insert
+2026-04-25 22:47:12,436 [INFO] root: Soubor deployment.sh vytvořen

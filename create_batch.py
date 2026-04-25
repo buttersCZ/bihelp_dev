@@ -18,7 +18,19 @@ def generate_batch_file(os_name: str):
         run_dev_str="""
         @echo off
         echo Spouštím BigQuery dotazy...
-        bq query --use_legacy_sql=false < batch_dev.sql
+        echo Log: %date% %time% >> run_dev.log
+
+        REM Spusť BigQuery
+        bq query --use_legacy_sql=false < batch_dev.sql >> run_dev.log 2>&1
+
+        if %errorlevel% equ 0 (
+            echo ✓ Dotazy byly úspěšně spuštěny >> run_dev.log
+        ) else (
+            echo ✗ Chyba při spuštění dotazů >> run_dev.log
+        )
+
+        echo.
+        echo Stiskni libovolnou klávesu...
         pause
         """ 
         file_name = BATCH_FILE_NAME+".bat"
@@ -28,8 +40,21 @@ def generate_batch_file(os_name: str):
     else:
         run_dev_str="""
         #!/bin/bash
-        echo \"Spouštím BigQuery dotazy...\"
-        bq query --use_legacy_sql=false < batch_dev.sql
+        echo "Spouštím BigQuery dotazy..."
+        echo "Log: $(date)" >> run_dev.log
+
+        # Spusť BigQuery
+        bq query --use_legacy_sql=false < batch_dev.sql >> run_dev.log 2>&1
+
+        if [ $? -eq 0 ]; then
+            echo "✓ Dotazy byly úspěšně spuštěny" >> run_dev.log
+        else
+            echo "✗ Chyba při spuštění dotazů" >> run_dev.log
+        fi
+
+        echo ""
+        echo "Log uložen v: run_dev.log"
+        read -p "Stiskni Enter pro ukončení..."
         """
         file_name = BATCH_FILE_NAME+".sh"
         with open(file_name, "w") as f:

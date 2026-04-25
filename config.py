@@ -42,8 +42,8 @@ environments:
   dev:
     project: tvuj-dev-projekt
     replacements:
-      - from: prod_project
-        to: dev_project
+      - from: prod_project.core
+        to: bqtesting-494319.test_dataset
 
   prod:
     project: prod-projekt

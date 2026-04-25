@@ -1,0 +1,13 @@
+Log: so 25. dubna 2026, 22:47:52 CEST
+Waiting on bqjob_r1ab13db836499a8e_0000019dc6661b86_1 ... (0s) Current status: RUNNING                                                                                      Waiting on bqjob_r1ab13db836499a8e_0000019dc6661b86_1 ... (1s) Current status: RUNNING                                                                                      Waiting on bqjob_r1ab13db836499a8e_0000019dc6661b86_1 ... (1s) Current status: DONE   
+CREATE TABLE IF NOT EXISTS `bqtesting-494319.test_dataset.products` (
+  id INT64,
+  name STRING
+); -- at [2:1]
+Created bqtesting-494319.test_dataset.products
+
+INSERT INTO `bqtesting-494319.test_dataset.products` (id, name)
+VALUES (1, 'Beer'), (2, 'Wine'); -- at [9:1]
+Number of affected rows: 2
+
+✓ Dotazy byly úspěšně spuštěny
