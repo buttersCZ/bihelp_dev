@@ -16,3 +16,15 @@ def get_sql_folders() -> list:
     sub_dir.sort()
 
     return sub_dir
+
+def process_sql_dir(dir, replacements) -> str:
+    batch = ""
+    for item in os.listdir(os.path.join(PATH, dir)):
+        if item.endswith(".sql"):
+            file_path = os.path.join(PATH, dir, item)
+            with open(file_path, "r") as f:
+                content = f.read()
+                for rep in replacements:
+                    content = content.replace(rep["from"],rep["to"])
+                batch += content
+    return batch

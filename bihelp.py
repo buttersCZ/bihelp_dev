@@ -1,7 +1,7 @@
 from config import load_config, get_env
 import argparse
 import logging
-from sql_processor import check_folder, get_sql_folders
+from sql_processor import check_folder, get_sql_folders,process_sql_dir
 
 
 def main():
@@ -35,10 +35,12 @@ def main():
     project = env.get("project")
 
     if check_folder():
+        batch = ""
         logging.info("Jsme ve spravne slozce")
         sub_dir = get_sql_folders()
         for dir in sub_dir:
             logging.info(f"Jsme v dir {dir}")
+            batch += process_sql_dir(dir, replacements)
 
 if __name__ == "__main__":
     main()

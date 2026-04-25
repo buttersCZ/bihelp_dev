@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `bqtesting-494319.test_dataset.products` (
+CREATE TABLE IF NOT EXISTS `prod_project.core.products` (
   id INT64,
   name STRING
 );
