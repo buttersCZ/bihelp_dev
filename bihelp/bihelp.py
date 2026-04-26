@@ -40,6 +40,7 @@ def main():
     project = env.get("project")
 
     if check_folder():
+        logging.info("Generuji davku....")
         batch = ""
         sub_dir = get_sql_folders()
         for dir in sub_dir:
