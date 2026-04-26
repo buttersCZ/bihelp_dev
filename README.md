@@ -7,13 +7,14 @@ Nástroj pro automatizovaný deployment SQL scriptů do BigQuery s podporou nahr
 ### Z .whl balíčku
 
 ```bash
-pip install bihelp_development-1.0.0-py3-none-any.whl
+pipx install git+https://github.com/buttersCZ/bihelp_dev.git
+
 ```
 
 ### Ověření instalace
 
 ```bash
-bihelp --help
+bihelp_bq --help
 ```
 
 ## Použití
@@ -21,7 +22,7 @@ bihelp --help
 ### 1. Inicializace konfigurace (poprvé)
 
 ```bash
-bihelp --settings
+bihelp_bq --settings
 ```
 
 Vytvoří šablonu `config.yaml`, kterou si upravíš podle svého prostředí.
@@ -45,7 +46,7 @@ environments:
 ### 3. Spuštění deployment
 
 ```bash
-bihelp --env dev
+bihelp_bq --env dev
 ```
 
 Vytvoří:
@@ -77,7 +78,7 @@ Složky se zpracovávají abecedně.
 
 ## Požadavky
 
-- Python 3.8+
+- Python 3.10+
 - BigQuery CLI (`bq`) nainstalovaný a autorizovaný
 - YAML config soubor
 
