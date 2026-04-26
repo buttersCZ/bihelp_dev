@@ -10,7 +10,7 @@ def load_config(path="config.yaml"):
             return yaml.safe_load(f)
     except FileNotFoundError:
         logging.error(f"Soubor '{path}' nenalezen!")
-        raise ValueError(f"config.yaml neexistuje. Spusť nejdřív:\n  bihelp --settings")
+        raise ValueError(f"config.yaml neexistuje. Spusť nejdřív:\n  bihelp_bq --settings")
     except yaml.YAMLError as e:
         logging.error(f"YAML je poškozený: {e}")
         raise ValueError(f"Soubor config má špatný formát: {e}")
