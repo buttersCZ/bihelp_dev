@@ -21,7 +21,6 @@ def get_env(config, env_name):
 
     if env_name not in envs:
         raise ValueError(f"Environment '{env_name}' not found")
-    logging.info(f"Prostredi nalezeno{envs[env_name]}")
     return envs[env_name]
 
 def check_bq_cli():

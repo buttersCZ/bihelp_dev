@@ -12,15 +12,10 @@ def main():
     logging.basicConfig(
         level=logging.DEBUG,
         format='%(asctime)s [%(levelname)s] %(name)s: %(message)s', 
-        handlers=[logging.FileHandler("done/{time}app.log"),
-                  logging.StreamHandler()],
-
+        handlers=[logging.StreamHandler()]
     )
 
-    file_handler = logging.getLogger().handlers[0]
-    file_handler.setLevel(logging.DEBUG)
-
-    console_handler = logging.getLogger().handlers[1]
+    console_handler = logging.getLogger().handlers[0]
     console_handler.setLevel(logging.INFO)
 
 
@@ -46,10 +41,8 @@ def main():
 
     if check_folder():
         batch = ""
-        logging.info("Jsme ve spravne slozce")
         sub_dir = get_sql_folders()
         for dir in sub_dir:
-            logging.info(f"Jsme v dir {dir}")
             batch += process_sql_dir(dir, replacements) +"\n\n"
 
     if batch:
