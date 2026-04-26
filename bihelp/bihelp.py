@@ -1,4 +1,4 @@
-from config import load_config, get_env,check_bq_cli,create_config_template
+from .config import load_config, get_env,check_bq_cli,create_config_template
 import argparse
 import logging
 import os
