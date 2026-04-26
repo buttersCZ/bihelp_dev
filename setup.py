@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "bihelp=bihelp.bihelp:main",
+            "bihelp_bq=bihelp.bihelp:main",
         ],
     },
     python_requires=">=3.10",
