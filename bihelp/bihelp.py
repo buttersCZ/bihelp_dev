@@ -3,8 +3,8 @@ import argparse
 import logging
 import os
 
-from sql_processor import check_folder, get_sql_folders,process_sql_dir
-from create_batch import generate_batch_file,generate_sql_file
+from .sql_processor import check_folder, get_sql_folders,process_sql_dir
+from .create_batch import generate_batch_file,generate_sql_file
 
 def main():
 
